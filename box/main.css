@@ -1,0 +1,27 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+/* CSS below here */
+/* Code for fancy button goes here */
+p {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  font-size: 1.2rem;
+  color: brown;
+  text-shadow: 2px 2px 3px black;
+  font-weight: bold;
+  border-radius: 1rem;
+  border: 1px solid rgb(150, 53, 8);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7),
+    inset 2px 3px 5px rgba(255, 255, 255, 0.6),
+    inset -2px -3px 5px rgba(0, 0, 0, 0.6);
+}
