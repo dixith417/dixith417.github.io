@@ -54,6 +54,9 @@ header ul li a {
   text-decoration: none;
   color: #eee;
 }
+header li a:hover {
+  color: #aaf;
+}
 @media all and (max-width: 760px) {
   header {
     display: block;
