@@ -1,0 +1,181 @@
+/* Layout start*/
+html {
+  height: 100%;
+}
+
+body {
+  height: 125%;
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.wrapper {
+  min-height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+header,
+footer {
+  flex-shrink: 0;
+}
+main {
+  flex-grow: 1;
+  margin-top: 15px;
+}
+/* layout close */
+
+/* ============================= */
+/* Nav Bar start*/
+header {
+  background-color: #333;
+  color: #eee;
+  padding: 14px;
+  display: flex;
+  font-weight: bold;
+}
+header nav {
+  margin-left: auto;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+header nav ul li {
+  margin: 20px;
+  font-size: large;
+}
+header ul li a {
+  text-decoration: none;
+  color: #eee;
+}
+@media all and (max-width: 760px) {
+  header {
+    display: block;
+  }
+  header h1 {
+    margin-bottom: 0;
+  }
+  header nav {
+    margin-left: initial;
+    margin-top: 0;
+  }
+  header nav ul {
+    display: initial;
+  }
+  header nav ul li {
+    margin: 10px;
+    font-size: large;
+  }
+}
+/* End of nav bar */
+/* ============================= */
+
+/* Main element start */
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+  max-width: 80%;
+}
+/* for resume button */
+.btn {
+  padding: 10px 15px;
+  border: 5px solid #333;
+  min-width: 8rem;
+  border-radius: 15px;
+  font-size: large;
+  background-color: #fff;
+  margin-top: 1rem;
+  transition: all 150ms ease-in-out;
+}
+.btn:hover {
+  background-color: #bbb;
+}
+.btn a {
+  color: #333;
+  text-decoration: none;
+}
+/* for project links */
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.links a {
+  text-decoration: none;
+  color: #333;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.links a:hover {
+  border-bottom: 1px solid #333;
+  border-top: 1px solid #333;
+  text-shadow: 1px 1px 2px #333;
+}
+/* for gaps between content */
+article #resume,
+article #projects {
+  margin-top: 4rem;
+}
+footer {
+  margin-top: 4rem;
+}
+h2 {
+  margin-bottom: 0.5rem;
+}
+hr {
+  margin-top: 0.5rem;
+}
+/* end of main */
+/* ============================ */
+/* footer start*/
+footer {
+  background-color: #333;
+  color: #eee;
+  padding: 18px;
+  display: flex;
+}
+footer nav {
+  margin-left: auto;
+  margin-top: 1.2rem;
+  margin-right: 1rem;
+}
+footer h1 {
+  margin-left: 1rem;
+}
+footer nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+footer nav ul li {
+  margin: 5px;
+  font-size: large;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #eee;
+}
+@media all and (max-width: 760px) {
+  footer {
+    display: block;
+  }
+  footer nav {
+    margin-left: initial;
+  }
+  footer h1 {
+    margin-left: 2.5rem;
+  }
+  footer nav ul li {
+    margin: 2px;
+    font-size: large;
+  }
+}
+/* end of footer */
+/* ========================== */
