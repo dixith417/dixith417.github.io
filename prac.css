@@ -53,6 +53,7 @@ header nav ul li {
 header ul li a {
   text-decoration: none;
   color: #eee;
+  transition: all 150ms linear;
 }
 header li a:hover {
   text-shadow: 1px 1px 5px #eee;
