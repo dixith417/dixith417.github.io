@@ -89,6 +89,9 @@ main {
   margin: 25px 0;
   max-width: 80%;
 }
+article p {
+  text-align: justify;
+}
 /* for resume button */
 .btn {
   padding: 10px 15px;
