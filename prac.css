@@ -55,7 +55,8 @@ header ul li a {
   color: #eee;
 }
 header li a:hover {
-  color: #aaf;
+  text-shadow: 1px 1px 5px #eee;
+  border-bottom: 1px solid #eee;
 }
 @media all and (max-width: 760px) {
   header {
