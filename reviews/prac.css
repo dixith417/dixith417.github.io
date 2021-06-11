@@ -1,0 +1,126 @@
+/* css starts */
+/* ===================================== */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  min-height: 90vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: aliceblue;
+  /* background-color: aqua; */
+}
+h1,
+h4,
+h3,
+h2,
+p {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  color: #333;
+}
+p {
+  color: #444;
+}
+/* ===================================== */
+/* title start */
+h1 {
+  color: #333;
+  margin-bottom: 2px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  min-height: 20vh;
+  /* background-color: #63e; */
+}
+.underline {
+  min-width: 8vw;
+  height: 1.5vh;
+  background-color: #63e;
+}
+/* title end */
+/* ================================ */
+/* image and headings container start */
+.review {
+  min-height: 80vh;
+  margin: 50px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 4px 4px 20px #333;
+  min-height: 40vh;
+  width: 35vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.image-container {
+  height: 200px;
+  margin: 20px auto;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+#info {
+  text-align: center;
+}
+#job {
+  color: #63e;
+  font-weight: bold;
+  border-bottom: 1px solid #63e;
+}
+/* img and headings container end */
+/* ==================================== */
+/* buttons start */
+.btn-container {
+  /* background-color: aqua; */
+  height: 80px;
+  width: 200px;
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+}
+.btn-container button {
+  flex: 1;
+  line-height: 0.5;
+  border: none;
+  margin: 10px 10px;
+  background-color: #fff;
+  color: #63e;
+  font-size: xx-large;
+}
+.btn-container button:hover {
+  color: rgba(102, 51, 238, 0.7);
+  border: 2px solid #63e;
+  border-radius: 0.5rem;
+}
+.btn-surprise button {
+  border: 1px solid #63e;
+  border-radius: 1rem;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: #63e;
+  font-size: large;
+  background-color: rgba(102, 51, 238, 0.2);
+}
+.btn-surprise button:hover {
+  background-color: rgba(102, 51, 238, 0.4);
+}
+/* buttons end */
+/* =================================== */
