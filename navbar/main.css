@@ -1,0 +1,106 @@
+/* css starts */
+/* ===================================== */
+/* basic */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eef;
+}
+h1,
+h4,
+h3,
+h2,
+p {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  color: #333;
+}
+p {
+  color: #444;
+}
+/* basic setup ends */
+/* ========================================= */
+/* nav bar code */
+nav {
+  background-color: #fff;
+  padding: 25px 0px 15px 0px;
+  box-shadow: 0px 4px 10px #333;
+  min-height: 14vh;
+}
+nav .nav-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+nav .logo {
+  margin-top: 0;
+  color: #89f;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: xx-large;
+  text-shadow: 1px 1px 4px #8af;
+}
+.logo span {
+  color: #444;
+  text-shadow: 1px 1px 4px #444;
+}
+nav .btn {
+  border: 2px solid #8af;
+  border-radius: 0.5rem;
+  color: #8af;
+  padding: 5px;
+  font-size: medium;
+  background-color: #fff;
+  transition: all 300ms ease-in-out;
+}
+/* button toggle with js */
+nav .btn-toggle {
+  border: none;
+  rotate: -180deg;
+}
+
+/* nav list items */
+.list {
+  height: 0;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+}
+/* list toggle with js */
+.show-list {
+  height: 13rem;
+  transition: all 300ms ease-in-out;
+}
+.list li {
+  list-style-type: none;
+  padding: 8px 30px 8px 30px;
+}
+.list a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: x-large;
+  text-shadow: 1px 1px 4px #333;
+}
+.list li:first-child {
+  margin-top: 15px;
+}
+.list li:hover {
+  background-color: rgba(134, 175, 252, 0.4);
+}
+.list li a:hover {
+  margin-left: 10px;
+  transition: all 250ms ease-in-out;
+}
+
+/* nav bar ends */
