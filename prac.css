@@ -92,6 +92,10 @@ main {
 article p {
   text-align: justify;
 }
+#projects span {
+  font: medium/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
 /* for resume button */
 .btn {
   padding: 10px 15px;
