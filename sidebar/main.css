@@ -34,6 +34,7 @@ p {
   color: #8af;
   padding: 5px;
   float: right;
+  cursor: pointer; 
   background-color: #eff;
   margin: 15px 30px 20px auto;
   animation: bounce 2s linear infinite;
@@ -105,6 +106,7 @@ p {
   width: 40px;
   border: none;
   color: #f00;
+  cursor: pointer;
   margin-top: auto;
   background-color: #fff;
   text-shadow: 1px 1px 4px #f00;
@@ -119,6 +121,7 @@ p {
 
 .links li a {
   color: #333;
+  cursor: pointer;
   display: block;
   font-size: x-large;
   font-weight: bold;
