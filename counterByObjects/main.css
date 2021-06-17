@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  display: grid;
+  grid-template-rows: 100px 1fr 1fr;
+  place-items: center;
+  min-height: 120vh;
+  background-color: rgb(246, 246, 253);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h4,
+h3,
+h2 {
+  color: #333;
+  letter-spacing: 1px;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  align-self: center;
+  margin: 0px 30px;
+  font-size: 1.6rem;
+}
+p {
+  color: #444;
+  text-align: center;
+  letter-spacing: 1px;
+}
+/* basic setup ends */
+
+/* css code */
+
+h2 {
+  margin: 0px;
+  text-align: center;
+}
+.container {
+  padding: 20px 30px;
+  min-width: 45vw;
+  min-height: 40vh;
+  display: grid;
+  place-items: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 20px #333;
+}
+.btn-container {
+  display: flex;
+  min-width: 20vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn {
+  flex: 1;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 0.5rem;
+  border: 2px solid #333;
+  background-color: transparent;
+  box-shadow: 1px 1px 2px #333, -1px -1px 2px #333;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #222;
+  transition: all 150ms ease-in-out;
+}
+.count {
+  font-size: 5.5rem;
+  color: #222;
+}
