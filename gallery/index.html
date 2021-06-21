@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./prac.css" />
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <title>Objects</title>
+  </head>
+  <body>
+    <h2 class="center-me">
+      This is a Gallery, click any image to see the effect.
+    </h2>
+    <p class="center-me">This is a good example of object oriented programming in which we can create two instances of a 'Gallery' object such as 'nature' and 'city' and have common functionalities.</p>
+    <!-- section of nature -->
+    <section class="section nature">
+      <img
+        src="./nature-1.jpeg"
+        alt="nature-1"
+        title="nature-img-1"
+        class="img"
+        data-id="1"
+      />
+      <img
+        src="./nature-2.jpeg"
+        alt="nature-2"
+        title="nature-img-2"
+        class="img"
+        data-id="2"
+      />
+      <img
+        src="./nature-3.jpeg"
+        alt="nature-3"
+        title="nature-img-3"
+        class="img"
+        data-id="3"
+      />
+    </section>
+
+    <!-- section of city -->
+    <section class="section city">
+      <img
+        src="./city-1.jpeg"
+        alt="city-1"
+        title="city-img-1"
+        class="img"
+        data-id="1"
+      />
+      <img
+        src="./city-2.jpeg"
+        alt="city-2"
+        title="city-img-2"
+        class="img"
+        data-id="2"
+      />
+      <img
+        src="./city-3.jpeg"
+        alt="city-3"
+        title="city-img-3"
+        class="img"
+        data-id="3"
+      />
+      <img
+        src="./city-4.jpeg"
+        alt="city-4"
+        title="city-img-4"
+        class="img"
+        data-id="4"
+      />
+      <img
+        src="./city-5.jpeg"
+        alt="city-5"
+        title="city-img-5"
+        class="img"
+        data-id="5"
+      />
+    </section>
+    <!-- modal -->
+    <section class="modal">
+      <button class="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-content">
+        <button class="prev-btn">
+          <i class="fas fas fa-chevron-left"></i>
+        </button>
+        <img
+          src="./city-1.jpeg"
+          alt="Cover Image"
+          title="Cover"
+          class="main-img"
+        />
+        <button class="next-btn">
+          <i class="fas fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <h3 class="heading">City 1</h3>
+      <div class="modal-images">
+        <img src="./city-1.jpeg" alt="city-1" class="modal-img selected" />
+        <img src="./city-2.jpeg" alt="city-2" class="modal-img" />
+    </section>
+    <!-- js files -->
+    <script src="./app.js"></script>
+  </body>
+</html>
