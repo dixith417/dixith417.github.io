@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  background-color: #eef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h4,
+h3,
+h2 {
+  color: #333;
+  letter-spacing: 1px;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+p {
+  color: #444;
+  text-align: justify;
+  letter-spacing: 1.2px;
+  /* margin: 1em 1em; */
+}
+/* ====================== */
+/* basic setup ends */
+/* ====================== */
+
+/* ====================== */
+/* css code */
+/* ====================== */
+.container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  max-width: 90vw;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  line-height: 1.4;
+  margin-top: 2rem;
+  padding: 4px 10px;
+  font-size: large;
+  border-radius: 0.5rem;
+  border: 2px solid #eef;
+  letter-spacing: 2px;
+  background-color: #38f;
+  text-transform: uppercase;
+  transition: all 150ms ease-in-out;
+}
+.btn:hover {
+  border: 2px solid #38f;
+  background-color: #222;
+  color: #37f;
+}
+.content {
+  margin-top: 2rem;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 1.3;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(1deg);
+  }
+  20% {
+    transform: translate(2px, -1px) rotate(-1deg);
+  }
+  30% {
+    transform: translate(-2px, 1px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, 1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(2px, -1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(-2px, 1px) rotate(1deg);
+  }
+  80% {
+    transform: translate(1px, 1px) rotate(-1deg);
+  }
+  90% {
+    transform: translate(-1px, -2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(2px, -1px) rotate(1deg);
+  }
+}
+
+.chuck {
+  animation: shake 0.25s ease 0s 4;
+}
