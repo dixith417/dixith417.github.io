@@ -22,4 +22,5 @@ const getUser = async () => {
     age,
   };
 };
+
 export default getUser;
