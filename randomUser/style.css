@@ -1,0 +1,121 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  background-color: #eef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h4,
+h3,
+h2 {
+  color: #333;
+  letter-spacing: 1px;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+p {
+  color: #444;
+  letter-spacing: 1.2px;
+  margin-top: 0.9rem;
+  font-size: 1.25rem;
+}
+/* ====================== */
+/* basic setup ends */
+/* ====================== */
+
+/* ====================== */
+/* css code */
+/* ====================== */
+body {
+  min-height: 100vh;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  line-height: 1.4;
+  margin-top: 2rem;
+  font-size: large;
+  padding: 5px 20px;
+  letter-spacing: 2px;
+  border-radius: 0.5rem;
+  border: 2px solid #eef;
+  background-color: #38f;
+  text-transform: uppercase;
+  transition: all 150ms ease-in-out;
+}
+.btn:hover {
+  color: #37f;
+  border: 2px solid #38f;
+  background-color: #222;
+}
+.container {
+  width: 60vw;
+  padding: 1.7rem;
+  min-height: 50vh;
+  margin: 0 auto;
+  text-align: center;
+  background: #fff;
+  margin-top: -200px;
+  box-shadow: 1px 1px 18px#444;
+  border-top-right-radius: 80px 80px;
+}
+@media screen and (max-width: 940px) {
+  .container {
+    width: 90vw;
+  }
+}
+.block {
+  min-height: 50vh;
+}
+.bg-black {
+  background-color: #2c2e31;
+}
+.user-img {
+  width: 155px;
+  height: 155px;
+  padding: 5px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid #777;
+  margin-bottom: 1.7rem;
+  box-shadow: 1px 1px 15px #333;
+}
+.user-value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.values-list {
+  justify-content: center;
+  margin-top: 1.35rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.icon {
+  color: #333;
+  cursor: pointer;
+  font-size: 1.65rem;
+  border: 3px solid #fff;
+  background: transparent;
+  padding: 5px 0px;
+  transition: all 150ms ease-in-out;
+}
+.icon:hover {
+  color: #38f;
+}
+.active {
+  color: #38f;
+  border-top: 3px solid #38f;
+}
