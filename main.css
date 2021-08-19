@@ -1,6 +1,7 @@
 /* Layout start*/
 html {
   height: 100%;
+  scroll-behaviour: smooth;
 }
 
 body {
