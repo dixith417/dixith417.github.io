@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  background-color: #eef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h4,
+h3,
+h2 {
+  color: #333;
+  letter-spacing: 1.4px;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+p {
+  color: #444;
+  letter-spacing: 1.3px;
+  margin-top: 0.9rem;
+  font-size: 1.25rem;
+}
+/* ====================== */
+/* basic setup ends */
+/* ====================== */
+#root {
+  min-height: 100vh;
+  padding: 1.25rem;
+  width: 94vw;
+  margin: 0 auto;
+}
+.center {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 1.75rem;
+}
+.book {
+  opacity: 0.8;
+  padding: 20px;
+  display: flex;
+  min-height: 62vh;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-family: monospace;
+  background-color: #fff;
+  transition: all 200ms ease-in-out;
+}
+.book:hover {
+  opacity: 1;
+}
+@media screen and (max-width: 968px) {
+  .center {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .book {
+    width: 80vw;
+  }
+}
+.img-container {
+  width: 220px;
+  height: 260px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.title {
+  color: #617d98;
+  margin-top: 1rem;
+  font-size: 1.65rem;
+}
+.author {
+  color: #8da;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  letter-spacing: 1.5px;
+}
